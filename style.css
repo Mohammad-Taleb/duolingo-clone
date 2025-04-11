@@ -15,6 +15,8 @@ body{
   height: 75px;
   background-color:#ffffff;
   position: fixed;
+  border-bottom-style:solid;
+  border-color: #d4d4d4;
 }
 
 .navbar img{
