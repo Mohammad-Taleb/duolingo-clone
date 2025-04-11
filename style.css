@@ -44,3 +44,47 @@ body{
   background-color:#60fa00;
   cursor: pointer;
 }
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.main img{
+  margin: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  padding-left: 0px;
+  width: 100vh;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+}
+
+.main-content h1{
+  color: #464a47;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.main-content button{
+  color:snow;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #57c926;
+  border-radius: 10px;
+  box-shadow: #259e03;
+  border-style: none;
+  border-bottom-style:solid;
+  height: 50px;
+  width: 65%;
+  padding: 5px;
+  padding-top: 0px;
+  margin-top: 15px
+}
