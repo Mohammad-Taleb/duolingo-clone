@@ -125,3 +125,23 @@ body{
 .scrollbar::-webkit-scrollbar{
   display: none;
 }
+
+/*-------------PAGE 2 -----*/
+.page-2 .main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.page-2 h1{
+  font-size: 65px;
+  color: #259e03;
+}
+
+.page-2 p{
+  font-size: 22px;
+  color: grey;
+}
+
+.page-2 p span{
+  color: aqua;
+}
