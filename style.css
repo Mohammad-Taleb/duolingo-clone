@@ -102,3 +102,26 @@ body{
 .main-content .btn-account:hover{
   background-color: #d4d4d4;
 }
+
+.scrollbar{
+  height: 75px;
+  width: 100%;
+  background-color: #ffffff;
+  border: #464a47;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #d4d4d4;
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.scrollbar ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 150%;
+  padding: 30px;
+}
+
+.scrollbar::-webkit-scrollbar{
+  display: none;
+}
