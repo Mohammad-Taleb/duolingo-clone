@@ -88,3 +88,17 @@ body{
   padding-top: 0px;
   margin-top: 15px
 }
+
+.main-content button:hover{
+  background-color:#60fa00;
+  cursor: pointer;
+}
+
+.main-content .btn-account{
+  color: turquoise;
+  background-color: white;
+}
+
+.main-content .btn-account:hover{
+  background-color: #d4d4d4;
+}
